@@ -1,0 +1,440 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,900;1,100;1,200;1,800&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,900;1,100;1,200;1,800&display=swap');
+
+
+body{
+  background-image: linear-gradient(to right top, #875170, #8b5b84, #8b6698, #8873ab, #8080be, #728ccb, #6098d6, #4ba4dd, #30b0dd, #23bbd8, #33c5d0, #50cdc5);
+}
+
+
+
+.navbar{
+  width: 100%;
+  /* min-height: 100vh; */
+  background: #eceaff;
+  color: #525252;
+}
+
+nav{
+  background: #1a1a1a;
+  /* width: 100%; */
+  padding: 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.logo{
+  width: 4%;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 100px;
+}
+
+nav ul{
+  width: 100%;
+  text-align: right;
+}
+
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+
+nav ul li a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.tog{
+  width: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+*,
+*:before,
+*:after{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+/* }
+ body{
+  background-image: linear-gradient(to right top, #875170, #8b5b84, #8b6698, #8873ab, #8080be, #728ccb, #6098d6, #4ba4dd, #30b0dd, #23bbd8, #33c5d0, #50cdc5);
+}
+.background{
+  width: 430px;
+  height: 620px;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  left: 50%;
+  top: 50%;
+}
+.background .shape{
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  border-radius: 50%;
+}
+.shape:first-child{
+  background: linear-gradient(
+      #1845ad,
+      #23a2f6
+  );
+  left: -80px;
+  top: -80px;
+}
+.shape:last-child{
+  background: linear-gradient(
+      to right,
+      #ff512f,
+      #f09819
+  );
+  right: -30px;
+  bottom: -80px;
+} */
+
+
+
+
+.forms{
+  flex-direction: row;
+  display: flex;
+  height: 630px;
+}
+
+.form1{
+  height: 420px;
+  width: 400px;
+  background-color: rgba(255,255,255,0.13);
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 340px;
+  left: 50%;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255,255,255,0.1);
+  box-shadow: 0 0 40px rgba(8,7,16,0.6);
+  padding: 50px 35px;
+  position: relative;
+  box-sizing: border-box;
+}
+.form1{
+  font-family: 'Poppins',sans-serif;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+  outline: none;
+  border: none;
+}
+.form1 h3{
+  font-weight: 500;
+  text-align: center;
+  font-size: 16px;
+}
+
+.form1 label{
+  display: block;
+  margin-top: 17px;
+  font-size: 14px;
+  font-weight: 300;
+}
+.form1 input{
+  display: block;
+  height: 50px;
+  width: 100%;
+  background-color: rgba(255,255,255,0.07);
+  border-radius: 10px;
+  padding: 0 10px;
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 300;
+  border: none;
+}
+
+.form1 input::placeholder{
+  color: #e5e5e5;
+  font-weight: 200;
+}
+
+.form1 .social{
+margin-top: 10px;
+display: flex;
+justify-content: center;
+font-size: 25px;
+}
+.form1 .social{
+border-radius: 10px;
+color: #eaf0fb;
+text-align: center;
+}
+
+
+.social div:hover{
+transform: scale(1.1);
+cursor: pointer;
+}
+
+.form1 .social .fb{
+margin-left: 25px;
+transition: 0.5s ease;
+
+}
+
+.form1 .social .go{
+    transition: 0.5s ease;
+
+}
+
+.form1 .social i{
+margin-right: 4px;
+}
+
+
+
+
+
+
+.input-field {
+  width: 100%;
+
+}
+
+.input-field i {
+  text-align: center;
+  line-height: 55px;
+  color: #acacac;
+  transition: 0.5s;
+  font-size: 1rem;
+}
+
+.input-field input {
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 15px 40px;
+  box-sizing: border-box;
+  background: #ebeef1;
+  border: 0px;
+  outline: none;
+  border-radius: 30px;
+}
+
+
+
+.input-field{
+  position: relative;
+}
+
+.input-field .fas{
+  position: absolute;
+  top: 22px;
+  left: 15px;
+  color: #9a99aa;
+  font-size: 16px;
+}
+
+.input-field input::placeholder {
+  color: #aaa;
+  font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#slogin{
+    text-align: center;
+    margin-top: 8px;
+    font-weight: 100;
+}
+
+#signup{
+    text-align: center;
+    margin-top: 11px;
+    font-weight: 100;
+    
+}
+
+#signup a{
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+#signup a:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+
+.inputBox button{
+    width: 100%;
+    transition: 0.4s ease;
+
+
+}
+
+
+.inputBox button:hover{
+    transform: scale(1.1);
+
+}
+
+.inputBox button[type="submit"]{
+    position: relative;
+    cursor: pointer;
+    background: #0f3959;
+    color: #fff;
+    border: none;
+    max-width: 150px;
+    padding: 12px;
+    left: 28%;
+    margin-top: 40px;
+    border-bottom-left-radius: 10px;
+ border-bottom-right-radius: 10px;
+ border-top-left-radius: 10px;
+ border-top-right-radius: 10px;
+}
+
+/* .inputBox input[type="submit"]:hover{
+    background: #03a9f4;
+} */
+
+
+.form1 h5{
+  font-size: 16px;
+  font-weight: 200;
+  text-align: center;
+}
+
+
+.form1 h5 a{
+  cursor: pointer;
+   color: whitesmoke;
+   font-size: 16px;
+   text-decoration: none;
+
+}
+
+.form1 h5 a:hover{
+  color: #1845ad;
+}
+
+
+
+
+
+
+/* footer */
+
+footer .foot{
+  background-image: linear-gradient(30deg, #0048bd, #44a7fd);
+  height: auto;
+}
+
+footer .foot{
+  padding-top: 20px;
+  border-top-left-radius: 80px;
+  border-top-right-radius: 80px;
+}
+footer .foot1{
+  padding-left: 150px;
+  flex-direction: row;
+  display: flex;
+  padding-bottom:45px;
+  column-gap: 200px;
+}
+
+#link1{
+  cursor: auto;
+}
+
+footer .foot .foot1 p{
+  font-size: 16px;
+  
+}
+
+.foot .foot1 .linkss{
+  list-style: none;
+  cursor: pointer;
+  gap: 15px;
+  text-align: center;
+}
+
+.foot .foot1 .linkss h5{
+  font-size: 16px;
+}
+
+.foot .foot1 .linkss h4{
+  padding-bottom: 12px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.foot .foot1 .linkss li{
+  text-transform: capitalize;
+padding-top: 10px;
+font-size: 14px;
+}
+
+.foot .foot2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
+}
+
+.foot .foot2 img{
+  width: 6%;
+}
+
+.foot .foot2 ul{
+  display: flex;
+  flex-direction: row;
+}
+
+
+.foot .foot2 ul i{
+  list-style: none;
+  font-size: 25px;
+}
+

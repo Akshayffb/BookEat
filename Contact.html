@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="contact.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/7f8d1dd8b4.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        
+        <script src="aside.js"></script>
+
+        <link rel="icon" href="Images/logo1.png">
+    <title>BookEat - Contact us</title>
+    </head>
+    <body>
+        <!-- <div class="navbar">
+            <div class="logo">
+                <a href="https://akshayffb.github.io/"><img src="Images/logo1.png" title="Bookly" alt="Bookly logo"></a>
+                <img class="img1" src="img/location.png" alt="">
+                <h3>select your location</h3><img class="arrow" src="img/arrow.svg" alt="">
+                
+            </div>
+            <div class="nav-links" id="myLinks">
+                <li>
+                    <input type="text" class="input-search" placeholder="Search....">
+                    <a href="https://akshayffb.github.io/">Search</a>
+                </li>   
+                <li>
+                  
+                    <a href="https://akshayffb.github.io/about.html">Suggest me</a>
+                </li>
+                <li>
+                    
+                    <a href="https://akshayffb.github.io/ourteam.html">Help</a>
+                </li>
+                <li>
+        
+                    <a href="https://akshayffb.github.io/service.html">Sign In</a>
+                </li>
+                <li>
+                  
+                    <a href="">Cart</a>
+                </li>
+              
+            </div>
+            <!-- <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a> 
+        </div>
+ -->
+
+
+
+ 
+
+        
+        <!-- HELP -->
+
+        
+  <div class="contact1">
+    <h1>Solve all your queries here</h1>
+    <h2>We Serve You Better</h2>
+
+    <div class="btn">
+        <button><a href="#faq">GoTo FAQ</a></button>
+        <div class="dropdown">
+          <button class="dropbtn">Talk To Us</button>
+          <div class="dropdown-content">
+            <a href="tel:123456789">Call: 123456789</a>
+            <a href="#">Real time Chat</a>
+            <a href="#" onclick="showDiv();">Help us Improve</a>
+          </div>
+        </div>
+
+
+        
+
+
+    </div>
+
+    
+    
+    <!-- <li>GoTo</li>
+    <li>Talk</li> -->
+    
+  </div>
+
+
+
+  <!-- Contact Form -->
+
+  <div class="contact">
+    
+    <form class="form" id="show" style="display: none;" action="" onsubmit="return validateForm()">
+      <h3 id="cancel" onclick="hidd()" style="cursor: pointer; text-align: end;" >&#10060;</h3>
+    <!--<form class="form"  action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post" onsubmit="received()">-->
+    <div class="title">
+      <h3>Tell us Something we can Improve</h3>
+    </div>
+    <div class="form-items">
+    <input type="text" class="input" name="cont_name" placeholder="Your Name" required>
+    <i class="fas fa-user"></i>
+    </div>
+    <div class="form-items">
+    <input type="email" class="input" name="cont_mail" placeholder="Email" required>
+    <i class="fas fa-envelope"></i>
+    </div>
+    <div class="form-items">
+      <input type="tel" name="number"  id="fname" placeholder="enter your number" minlength="10" maxlength="10" onkeypress="return(event.charCode !=8 && event.charCode ==0 || (event.charCode >= 48 && event.charCode <= 57))">
+      <!-- <input type="tel" class="input" name="cont_num" placeholder="Mobile No." maxlength="10" maxlength="10" onkeypress="return(event.charCode !=8 && event.charCode ==0 || (event.charCode >= 48 && event.charCode <= 57))"> -->
+      <!-- <input type="tel" minlength="10" maxlength="10"  placeholder="Phone number" class="si1" onkeypress="return (event.charCode !=8 && event.charCode ==0 || (event.charCode >= 48 && event.charCode <= 57))" /> -->
+      <i class="fas fa-mobile"></i>
+    </div>
+    <div class="form-items">
+    <textarea class="input message" name="cont_msg" cols="30" rows="10"  placeholder="Help us Improve....." required></textarea>
+    </div>
+    <div class="inputBox w100">
+      <input type="submit">
+    </div>
+   </form>
+  
+</div>
+</div>
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              <!-- FAQ -->
+    <section id="faq">
+      <h1  class="title">Frequently Asked Questions</h1>
+      
+      <div class="category">
+          <div class="subjects">
+              <h2>How we do?</h2>
+  
+              <svg width="15" height="10" viewBox="0 0 42 25">
+                  <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+              </svg>
+  
+          </div>
+  
+          <div class="subans">
+            <p>We collect huge amount of data from all reputed sources ( Schools, Colleges, university) then select the relevant materials and categorize in definite order.
+              All the data is organized in simple format in order to make it easily accessible.</p>
+          </div>
+  
+          
+  
+      </div>
+  
+      <div class="category">
+          <div class="subjects">
+              <h2>I'm not able to find a specific material</h2>
+  
+              <svg width="15" height="10" viewBox="0 0 42 25">
+                  <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+              </svg>
+  
+          </div>
+          <div class="subans">
+        <p>All the study materials, question papers, quiz or blog articles are organized & upload in simple accessible.
+            If you can't find the content you're looking for, It might not be there, deleted or would have sent for modification.
+            Once the changes are made it will be accessible. If you still need it <a style="text-decoration: none;" href="https://spava.in/help/contact">Request here</a>
+        </p>
+          </div>
+  
+          
+  
+      </div>
+  
+      <div class="category">
+          <div class="subjects">
+              <h2>How do I request a content/Study Material/Question Paper?</h2>
+  
+              <svg width="15" height="10" viewBox="0 0 42 25">
+                  <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+              </svg>
+  
+          </div>
+  
+          <div class="subans">
+              <p>If you're tired of searching for a content, study material or question paper. 
+                  As we have content delivery system. We take the privilage to collect and deliver a content successfully to user once he/she
+                   made a request. <br>
+                   You can always request any study related information <a style="text-decoration: none;" href="https://spava.in/help/contact">here</a>
+              </p>
+          
+          </div>
+  
+          
+  
+      </div>
+  
+  
+  
+      <div class="category">
+          <div class="subjects">
+              <h2>Do we provide Competitive Exams Study Material?</h2>
+  
+              <svg width="15" height="10" viewBox="0 0 42 25">
+                  <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+              </svg>
+  
+          </div>
+  
+          <div class="subans">
+              <p>No, currently we do not provide any study materials, question papers or any kind of content for Competitive exams.
+                  <br>
+                   You can always request any study related information <a style="text-decoration: none;" href="https://spava.in/help/contact">here</a>
+              </p>
+          
+          </div>
+  
+          
+  
+      </div>
+  
+  
+  
+      
+      <div class="category">
+          <div class="subjects">
+              <h2>Why do you choose our Service?</h2>
+  
+              <svg width="15" height="10" viewBox="0 0 42 25">
+                  <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+              </svg>
+  
+          </div>
+  
+          <div class="subans">
+              <p> What if we tell you, you can find all your study related doubts here.s<br>
+                   It's not just because we say" One Stop For All Your Study Needs". <br>
+                  We have seen students surfing internet from one web to another web to any sort of study information. Even 
+                  we as a student have done that. So We came up with an idea to bring all sorts for study information at one place.
+                  <br>
+                   You can always request any study related information <a style="text-decoration: none;" href="https://spava.in/help/contact">here</a>
+              </p>
+          
+          </div>
+  
+          
+  
+      </div>
+  
+  
+  </section>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+    
+  <footer>
+        <div class="foot">
+          <div class="foot1">
+            
+            <div id="link1" class="linkss">
+            
+            <h5>BookEat - Grab a Bite </h5> <p> <br> Order anything, anywhere, anytime <br>
+             Eat, Sleep and Save Money<br>
+              All at one place
+            </p>
+              </div>
+  
+  
+              <div id="link1" class="linkss">
+                <h4>Office</h4>
+                <p>OMBR Layout<br>
+                   Bangalore - 560043<br>
+                    Karnataka
+                </p>            
+               
+              
+              </div>
+  
+              
+              <div class="linkss">
+                <h4>Other Links</h4>
+                <li>About us</li>
+                <li>Contact</li>
+                <li>Blog</li>
+                          
+               
+              
+              </div>
+  
+              
+              <div class="linkss">
+                <h4>Legal</h4>
+                <li>Terms & Services</li>
+                <li>Privacy Policies</li>
+                <li>Refund Policies</li>
+                <li>Cookies</li>
+                          
+               
+              
+              </div>
+  
+          </div>
+  
+          <hr>
+          <div class="foot2">
+            <img src="img/logo1.png" alt="">  
+  
+            <h2>&reg; BookEat</h2>
+  
+            <ul>
+             <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-instagram"></i>
+            </ul>
+  
+  
+          </div>
+          <div class="foot2">
+  
+          </div>
+        </div>
+      </footer>
+  
+     
+  
+      
+  
+            <script>
+              function myFunction() {
+                var x = document.getElementById("myLinks");
+                if (x.style.display === "block") {
+                  x.style.display = "none";
+                } else {
+                  x.style.display = "block";
+                }
+              }
+              </script>
+
+
+              <!-- show/hide -->
+
+              <script>
+                function showDiv(){
+                  document.getElementById('show').style.display="block";
+                }
+              </script>
+
+
+              <!-- onsubmitclose -->
+
+              <script>
+                function validateForm() {
+               if(confirm('Are you sure?'))
+              {
+              $("myform").submit();
+      
+               }
+                 else{
+                   alert("Invalid");
+                    return false;
+                     }
+                  }
+              </script>
+
+
+
+
+               <!-- hide -->
+              <script>
+             function hidd(){
+                var a=document.getElementById('show');
+                a.style.display='none'
+               }
+
+            </script>
+
+  
+              <!-- <script src="show"></script> -->
+              <script src="contact.js"></script>
+        
+      </body>
+  </html>
+  
+  
