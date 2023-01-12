@@ -55,7 +55,7 @@ div.full figure:not(.expanded) { pointer-events: none;
   margin: auto;
   color: #fff;
 	font-size: 14px;
-	padding: 7%;
+	padding-top: 7%;
 }
 
 
