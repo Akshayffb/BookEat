@@ -45,6 +45,8 @@ div.full figure:not(.expanded) { pointer-events: none;
   text-align: center;
   justify-content: center;
   color: #fff;
+	padding: 3%;
+    font-size: 2em;
 }
 
 
@@ -52,4 +54,18 @@ div.full figure:not(.expanded) { pointer-events: none;
   max-width: 50%;
   margin: auto;
   color: #fff;
+	font-size: 14px;
+	padding: 7%;
+}
+
+
+
+.navvvvvv h3{
+	
+	    font-family: cursive;
+}
+
+.navvvvvv h4{
+	    font-family: sans-serif;
+	
 }
